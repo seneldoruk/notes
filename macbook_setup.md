@@ -58,12 +58,4 @@ brew install MonitorControl
 #Select "Start at login", "Sync brightness"
 #Deselect "Combine hardware and software dimming"
 
-#Rectangle
-brew install --cask rectangle
-
-#Mos
-brew install mos
-#Enable launch at login, disable reverse scroll
-#Step: 50, Speed: 7.75, Duration: 1
-#Change scroll sensitivity on VSCode too
 ```
