@@ -4,7 +4,9 @@
 
 [Grid Garden](https://cssgridgarden.com/)
 
-[Redux with Toolkit and TypeScript](https://www.youtube.com/watch?v=9zySeP5vH9c)
+[Redux with Toolkit and TypeScript (Video)](https://www.youtube.com/watch?v=9zySeP5vH9c)
+
+[RTK TypeScript Quick Start](https://redux-toolkit.js.org/tutorials/typescript)
 
 ### Backend
 
