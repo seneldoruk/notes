@@ -41,9 +41,9 @@ brew install gh
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
 echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
 
-#case insensitive autocomplete
-echo "set completion-ignore-case On" >> ~/.inputrc
-source ~/.inputrc
+#case insensitive and partial autocomplete
+echo "autoload -Uz compinit && compinit">>~/.zshrc
+echo "zstyle ':completion:*' matcher-list '' 'm:{a-zA-Z}={A-Za-z}' 'r:|[._-]=* r:|=*' 'l:|=* r:|=*'">>~/.zshrc
 
 #AltTab
 brew install --cask alt-tab
